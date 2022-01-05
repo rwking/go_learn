@@ -33,6 +33,7 @@ func main() {
     fmt.Println("sl3:", l)
 
     t := []string{"g", "h", "i"}
+    t[0] = "a"
     fmt.Println("dcl:", t)
 
     twoD := make([][]int, 3)
